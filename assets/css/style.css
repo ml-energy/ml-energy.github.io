@@ -282,14 +282,17 @@ a.slide-btn:hover {
 .slide-1 {
     background:url(../img/bg/slide-1.jpg);
     background-size: cover;
+    background-position: center;
 }
 .slide-2 {
     background:url(../img/bg/slide-2.jpg);
     background-size: cover;
+    background-position: center;
 }
 .slide-3 {
     background:url(../img/bg/slide-3.jpg);
     background-size: cover;
+    background-position: center;
 }
 .single-slide-item {
     position: relative;

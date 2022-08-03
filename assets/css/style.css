@@ -384,7 +384,6 @@ a.welcome-control:focus {
     overflow: hidden;
 }
 .single-featured h4 {
-    cursor: pointer;
     margin-top: 20px;
     margin-bottom: 10px;
 }

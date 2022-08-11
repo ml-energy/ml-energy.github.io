@@ -471,17 +471,9 @@ a.about-btn:hover {
     transition: all 0.4s ease 0s;
     -webkit-transition: all 0.4s ease 0s;
 }
-.project-icon i {
-    background: #687074 none repeat scroll 0 0;
-    border-radius: 50%;
-    color: #fff;
-    display: inline-block;
-    font-size: 25px;
-    height: 62px;
-    line-height: 62px;
-    margin-bottom: 10px;
-    text-align: center;
-    width: 62px;
+.project-icon img {
+    margin-bottom: 20px;
+    width: 100%;
     -webkit-transition: .4s;
     transition: .4s;
 }

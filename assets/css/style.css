@@ -899,6 +899,7 @@ a.blog-btn {
     color: #fff;
     display: inline-block;
     font-size: 12px;
+    font-weight: bold;
     padding: 8px 12px;
     text-transform: uppercase;
 }

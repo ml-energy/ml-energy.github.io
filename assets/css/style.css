@@ -889,6 +889,7 @@ ul.post-meta li {
 }
 .single-post-content h4 {
     margin-top: 15px;
+    text-transform: none;
 }
 .single-post-content h4:hover a {
     color: #23d175;

@@ -474,6 +474,8 @@ a.about-btn:hover {
 .project-icon img {
     margin-bottom: 20px;
     width: 100%;
+    height: 100px;
+    object-fit: contain;
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -882,7 +884,7 @@ ul.post-meta li {
     margin-right: 5px;
 }
 .single-blog-post {
-    /* margin-top: 30px */
+    margin-top: 30px
 }
 .single-post-content {
     background: #fff;

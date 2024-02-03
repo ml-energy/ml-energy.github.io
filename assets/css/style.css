@@ -1148,3 +1148,15 @@ ul.contact-list i {
     color: #23d175;
 }
 /*15.END FOOTER DESIGN AREA*/
+
+/*START FUNDING AREA*/
+.vertical-center {
+   display: table-cell;
+   float: none;
+   vertical-align: middle;
+}
+
+.disclaimer {
+    /* margin-top: 20px; */
+}
+/*END FUNDING AREA*/

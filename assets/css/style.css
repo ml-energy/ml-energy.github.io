@@ -1151,8 +1151,8 @@ ul.contact-list i {
 
 /*START FUNDING AREA*/
 .vertical-center {
-   display: table-cell;
-   float: none;
+   display: inline-block;
    vertical-align: middle;
+   float: none;
 }
 /*END FUNDING AREA*/

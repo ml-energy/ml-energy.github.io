@@ -545,7 +545,7 @@ a.get-start-btn:hover {
     border: 1px solid #f6f6f6;
     margin-top: 30px;
     text-align: center;
-    padding: 30px 20px;
+    padding: 20px 15px;
 }
 .single-team:hover {
     box-shadow: 0 0 10px 1px rgba(76, 76, 76, 0.41);
@@ -555,6 +555,11 @@ a.get-start-btn:hover {
 .single-team h6 {
     color: #666;
     margin: 15px 0;
+}
+.single-team h4 {
+    color: #23d175;
+    margin-top: 20px;
+    text-transform: none;
 }
 ul.team-social {
     list-style: outside none none;
@@ -566,10 +571,6 @@ ul.team-social i {
     color: #666;
     font-size: 16px;
     margin: 0 10px;
-}
-.single-team h4 {
-    color: #23d175;
-    margin-top: 20px;
 }
 ul.team-social i:hover {
     color: #23d175;

@@ -362,20 +362,10 @@ a.welcome-control:focus {
 }
 .right.welcome-control {
     left: auto;
-    right: -52px;
+    right: 30px;
 }
 .left.welcome-control {
-    left: -52px;
-}
-.welcome-slider-area:hover .right.welcome-control {
-    right: 30px;
-    transition: .25s;
-    -webkit-transition: .25s
-}
-.welcome-slider-area:hover .left.welcome-control {
     left: 30px;
-    transition: .25s;
-    -webkit-transition: .25s
 }
 /*03.END HOME DESIGN AREA*/
 /*04.START ABOUT DESIGN AREA*/

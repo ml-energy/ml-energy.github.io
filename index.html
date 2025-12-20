@@ -564,7 +564,37 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row news-grid collapsed" id="news-grid">
+                <!-- START SINGLE BLOG POST -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-blog-post">
+                        <div class="single-post-content">
+                            <ul class="post-meta">
+                                <li><a href="#"><i class="fa fa-calendar"></i>December 19th, 2025</a>
+                                </li>
+                            </ul>
+                            <h4>ML.ENERGY Leaderboard v3.0</h4>
+                            <p>Extended model, task, and system coverage, plus a completely new web UI!</p>
+                            <a class="blog-btn" href="https://ml.energy/leaderboard">Leaderboard</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SINGLE BLOG POST -->
+                <!-- START SINGLE BLOG POST -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-blog-post">
+                        <div class="single-post-content">
+                            <ul class="post-meta">
+                                <li><a href="#"><i class="fa fa-calendar"></i>December 2nd, 2025</a>
+                                </li>
+                            </ul>
+                            <h4>Tutorial @ NeurIPS '25</h4>
+                            <p>We joined forces with NVIDIA to deliver a tutorial on ML power & energy, with experts from Google and Meta joining us.</p>
+                            <a class="blog-btn" href="https://ml.energy/tutorials/neurips25">Tutorial</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SINGLE BLOG POST -->
                 <!-- START SINGLE BLOG POST -->
                 <div class="col-md-4 col-sm-6">
                     <div class="single-blog-post">
@@ -620,8 +650,6 @@
                     </div>
                 </div>
                 <!-- END SINGLE BLOG POST -->
-              </div>
-              <div class="row">
                 <!-- START SINGLE BLOG POST -->
                 <div class="col-md-4 col-sm-6">
                     <div class="single-blog-post">
@@ -659,9 +687,6 @@
                     </div>
                 </div>
                 <!-- END SINGLE BLOG POST -->
-            <!-- </div> -->
-            <!-- <div class="row"> -->
-                <div class="clearfix visible-md-block"></div>
                 <!-- START SINGLE BLOG POST -->
                 <div class="col-md-4 col-sm-6">
                     <div class="single-blog-post">
@@ -681,8 +706,6 @@
                     </div>
                 </div>
                 <!-- END SINGLE BLOG POST -->
-            <!-- </div> -->
-            <!-- <div class="row"> -->
                 <!-- START SINGLE BLOG POST -->
                 <div class="col-md-4 col-sm-6">
                     <div class="single-blog-post">
@@ -742,6 +765,22 @@
                 <!-- END SINGLE BLOG POST -->
             </div>
             <!-- END ROW -->
+            <div class="row text-center">
+                <button class="news-toggle-btn" id="news-toggle-btn" onclick="toggleNews()">More</button>
+            </div>
+            <script>
+                function toggleNews() {
+                    var grid = document.getElementById('news-grid');
+                    var btn = document.getElementById('news-toggle-btn');
+                    if (grid.classList.contains('collapsed')) {
+                        grid.classList.remove('collapsed');
+                        btn.textContent = 'Less';
+                    } else {
+                        grid.classList.add('collapsed');
+                        btn.textContent = 'More';
+                    }
+                }
+            </script>
         </div>
         <!-- END CONTAINER -->
     </section>
@@ -776,6 +815,10 @@
                 </div><!--
                 --><div class="col-md-2 col-sm-4 col-xs-12 vertical-center">
                     <img src="assets/img/funding/github.png" alt="GitHub Logo" style="max-width: 80%;">
+                </div><!--
+                --><div class="col-md-2 col-sm-4 col-xs-12 vertical-center">
+                    <img src="assets/img/funding/laude.png" alt="Laude Institute Logo" style="max-width: 80%;">
+                    <!-- <a href="https://www.laude.org/"><img src="assets/img/funding/laude.svg" alt="Laude Institute Logo" style="max-width: 100%;"></a> -->
                 </div>
             </div>
           </div>

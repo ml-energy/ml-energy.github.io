@@ -913,6 +913,39 @@ a.blog-btn {
 .single-post-content p {
     margin-bottom: 20px;
 }
+.news-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+.news-grid > .col-md-4 {
+    display: flex;
+}
+.news-grid .single-blog-post {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.news-grid.collapsed > .col-md-4:nth-child(n+10) {
+    display: none;
+}
+.news-toggle-btn {
+    background: transparent;
+    color: #666;
+    border: 2px solid #ccc;
+    padding: 10px 40px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: all 0.3s;
+    border-radius: 3px;
+}
+.news-toggle-btn:hover {
+    border-color: #23d175;
+    color: #23d175;
+}
 /*12.END BLOG DESIGN AREA*/
 /*13.START CONTACT DESIGN AREA*/
 

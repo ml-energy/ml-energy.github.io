@@ -528,44 +528,89 @@ a.get-start-btn:hover {
     z-index: -1;
 }
 /*06. END GET-STRETED AREA*/
-/*07. START TEAM DESIGN AREA*/
+/*07. START PEOPLE AREA*/
 
-.single-team {
-    background: #f6f6f6 none repeat scroll 0 0;
-    border: 1px solid #f6f6f6;
-    margin-top: 30px;
+.people-legend {
+    color: #888;
+    font-size: 13px;
+    margin-top: -20px;
+    margin-bottom: 20px;
     text-align: center;
-    padding: 20px 15px;
 }
-.single-team:hover {
-    box-shadow: 0 0 10px 1px rgba(76, 76, 76, 0.41);
-    -webkit-transition: .5s;
-    transition: .5s;
-}
-.single-team h6 {
-    color: #666;
-    margin: 15px 0;
-}
-.single-team h4 {
-    color: #23d175;
-    margin-top: 20px;
-    text-transform: none;
-}
-ul.team-social {
-    list-style: outside none none;
-}
-ul.team-social > li {
+
+.legend-swatch {
     display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #23d175;
+    border-radius: 2px;
+    margin-right: 4px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
 }
-ul.team-social i {
-    color: #666;
-    font-size: 16px;
-    margin: 0 10px;
+
+.people-grid {
+    margin-bottom: 10px;
 }
-ul.team-social i:hover {
+
+.person-card {
+    display: block;
+    background: #f6f6f6;
+    border: 1px solid #eee;
+    border-left: 3px solid #ddd;
+    border-radius: 3px;
+    padding: 12px 14px;
+    margin-top: 10px;
+    text-decoration: none;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+.person-card:hover {
+    text-decoration: none;
+    border-left-color: #999;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    -webkit-transform: translateY(-1px);
+    transform: translateY(-1px);
+}
+
+.person-card.person-active:hover {
+    border-left-color: #23d175;
+}
+
+.person-card.person-active {
+    border-left-color: #23d175;
+    background: rgba(35, 209, 117, 0.06);
+}
+
+.person-card.person-active:hover {
+    background: rgba(35, 209, 117, 0.12);
+}
+
+.person-name {
+    display: block;
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.person-card:hover .person-name {
+    color: #111;
+}
+
+.person-card.person-active:hover .person-name {
     color: #23d175;
 }
-/*07. END TEAM AREA*/
+
+.person-role {
+    display: block;
+    color: #999;
+    font-size: 12px;
+    line-height: 1.3;
+}
+/*07. END PEOPLE AREA*/
 /*08.START FUN FACT DESIGN AREA*/
 
 .project-complete-area {
